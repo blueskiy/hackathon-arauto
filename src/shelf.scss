@@ -1,0 +1,17 @@
+.shelf {
+    width: 76vw;
+    margin-bottom: 5rem;
+
+    &--title {
+        color: #fff;
+        font-weight: 700;
+    }
+
+    &--content {
+        margin-top: 2rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}

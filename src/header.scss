@@ -1,0 +1,56 @@
+.header {
+    width: 100vw;
+    display: flex;
+    padding: 0.4rem 1rem;
+    align-items: center;
+    background-color:#333333;
+    justify-content: space-between;
+    border-bottom: 2px solid #222222;
+
+    &--left-box {
+        padding-left: 1rem;
+        a {
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+    }
+
+    &--right-box {
+        width: 285px;
+        display: flex;
+        padding: 0 1rem;
+        align-items: center;
+        justify-content: space-between;
+
+        .new-table {
+            width: 150px;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            font-weight: 600;
+            padding: 12px 0;
+            border-radius: 7px;
+            background-color: #8F88FF;
+            transition: all 200ms ease-in-out;
+
+            &:hover {
+                background-color: #7a74f3;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .profile-picture {
+            width: 50px;
+            height: 50px;
+            display: block;
+            cursor: pointer;
+            border-radius: 50%;
+            background-color: #fff;
+        }
+    }
+}

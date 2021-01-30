@@ -5,23 +5,35 @@ import './shelf.scss'
 const Shelf = (props) => {
     const tables = [
         {
-            "mestre": "biroliro",
+            "campaign": "Contos Inacabados",
             "sistema": "D&D",
+            "tags": [
+                "medieval"
+            ],
             "url": "https://cdna.artstation.com/p/assets/images/images/022/577/506/large/eddie-mendoza-canal-town.jpg?1575955042"
         },
         {
-            "mestre": "boromin",
+            "campaign": "Cyberpunk 2077",
             "sistema": "daemon",
+            "tags": [
+                "sci-fi"
+            ],
             "url": "https://cdna.artstation.com/p/assets/images/images/001/631/384/large/devon-fay-devon-fay-scifi-alley.jpg?1449806973"
         },
         {
-            "mestre": "frodo",
+            "campaign": "A Ira & o Dragão",
             "sistema": "D&D",
+            "tags": [
+                "medieval"
+            ],
             "url": "https://cdna.artstation.com/p/assets/images/images/019/974/238/large/petros-stefanidis-mayan-lightning-conductor-petros-stefanidis.jpg?1565808198"
         },
         {
-            "mestre": "elfo",
+            "campaign": "The Great Fall",
             "sistema": "gurps",
+            "tags": [
+                "sci-fi"
+            ],
             "url": "https://cdna.artstation.com/p/assets/images/images/032/375/428/large/darek-zabrocki-doodle-3-4c.jpg?1606251133"
         }
     ]

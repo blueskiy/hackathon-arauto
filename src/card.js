@@ -6,8 +6,11 @@ const Card = (props) => {
         <div className="card">
             <div style={{ backgroundImage: `url(${props.url})` }} className="card--image"></div>
             <div className="card--content">
-                <span className="narrator">{props.mestre}</span>
-                <span className="system">{props.sistema}</span>
+                <span className="campaign">{props.campaign}</span>
+                {/* <span className="system">{props.sistema}</span> */}
+                <div className="tags">
+                    <span className="tag">{props.tags[0]}</span>
+                </div>
             </div>
         </div>
     );

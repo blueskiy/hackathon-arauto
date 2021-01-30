@@ -26,7 +26,7 @@ const Shelf = (props) => {
             "tags": [
                 "medieval"
             ],
-            "url": "https://cdna.artstation.com/p/assets/images/images/019/974/238/large/petros-stefanidis-mayan-lightning-conductor-petros-stefanidis.jpg?1565808198"
+            "url": "https://cdna.artstation.com/p/assets/images/images/001/032/036/large/bayard-wu-05.jpg?1443927688"
         },
         {
             "campaign": "The Great Fall",

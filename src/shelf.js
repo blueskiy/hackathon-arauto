@@ -10,7 +10,7 @@ const Shelf = (props) => {
             "tags": [
                 "medieval"
             ],
-            "url": "https://cdna.artstation.com/p/assets/images/images/022/577/506/large/eddie-mendoza-canal-town.jpg?1575955042"
+            "url": "https://cdnb.artstation.com/p/assets/images/images/009/736/799/large/leon-tukker-magic-city2-as.jpg?1520605576"
         },
         {
             "campaign": "Cyberpunk 2077",

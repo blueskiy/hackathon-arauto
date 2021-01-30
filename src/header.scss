@@ -32,11 +32,12 @@
             cursor: pointer;
             font-weight: 600;
             border-radius: 7px;
-            background-color: #8F88FF;
+            background-color: #766dfc;
             transition: all 200ms ease-in-out;
+            font-family: 'Open Sans', sans-serif;
 
             &:hover {
-                background-color: #7a74f3;
+                background-color: #5c53f5;
             }
 
             &:focus {

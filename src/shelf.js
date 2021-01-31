@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from './card'
-import './shelf.scss'
+import Card from './card';
+import './shelf.scss';
 
 const Shelf = (props) => {
     const tables = [

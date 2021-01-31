@@ -11,7 +11,7 @@
         width: 60vw;
         height: 66px;
         border-radius:33px;
-        padding-left: 1.2rem;
+        padding-left: 2.1rem;
         background-color: #fff;
         box-shadow: 0px 16px 32px rgba(5, 5, 5, 0.322), 0px 3px 8px rgba(17, 15, 19, 0.274);
 
@@ -26,6 +26,8 @@
 
             span {
                 color: #000;
+                font-size: 13px;
+                font-weight: 700;
             }
 
             input {
@@ -43,19 +45,6 @@
                     outline: none;
                 }
             }
-        }
-
-        &-1:after {
-            background-clip: padding-box;
-            border: 1px solid transparent;
-            border-radius: 32px;
-            bottom: 0px;
-            content: "";
-            left: 0px;
-            position: absolute;
-            right: 0px;
-            top: 0px;
-            z-index: 0;
         }
     }
 }

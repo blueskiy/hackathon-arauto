@@ -63,6 +63,10 @@
                 letter-spacing: 1px;
                 font-family: sans-serif;
                 background-color: rgb(53, 158, 255);
+
+                &:not(:last-child) {
+                    margin-right: 7px;
+                }
             }
         }
     }

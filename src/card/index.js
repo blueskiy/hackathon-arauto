@@ -1,5 +1,5 @@
 import React from 'react';
-import './card.scss'
+import './style.scss'
 
 const Card = (props) => {
     return (
@@ -11,6 +11,7 @@ const Card = (props) => {
                 {/* <span className="system">{props.sistema}</span> */}
                 <div className="tags">
                     <span className="tag">{props.tags[0]}</span>
+                    <span className="tag">{props.tags[1]}</span>
                 </div>
             </div>
         </div>

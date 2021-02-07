@@ -1,0 +1,33 @@
+.overlay {
+    z-index: -1;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 250ms ease-in-out;
+
+    top: 0;
+    left: 0;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.363);
+
+    &.opened {
+        opacity: 1;
+        z-index: 9999;
+        backdrop-filter: blur(1px);
+    }
+
+    .modal-body {
+        width: 60vw;
+        height: 70vh;
+        background-color: rgba(0, 0, 0, 0.89);
+
+        h1 {
+            color: #a584ff;
+        }
+    }
+}
